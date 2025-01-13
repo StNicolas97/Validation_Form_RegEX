@@ -1,0 +1,39 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="userForm" method="post" action="post.php">
+        <h2>Validation formulaire</h2>
+        <label for="fullName">Nom complet :</label>
+        <input type="text" id="fullName">
+        <p id="errorFullName" class="error"></p>
+
+        <label for="email">E-mail :</label>
+        <input type="email" id="email">
+        <p id="errorEmail" class="error"></p>
+
+        <label for=" phone">Téléphone :</label>
+        <input type="number" id="phone">
+        <p id="errorPhone" class="error"></p>
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password">
+        <p id="errorPassword" class="error"></p>
+
+        <label for="postalCode">Code postal :</label>
+        <input type="number" id="postalCode">
+        <p id="errorPostalCode" class="error"></p>
+
+        <button type="button" id="submitButton">Valider</button>
+    </form>
+
+    <script src="js/validation.js"></script>
+</body>
+
+</html>

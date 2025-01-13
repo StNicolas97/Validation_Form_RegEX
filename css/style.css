@@ -1,0 +1,49 @@
+/* Sélecteur pour le formulaire */
+#userForm {
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: #bfe9c1;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Sélecteur pour les labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Sélecteur pour les champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Sélecteur pour les messages d'erreur */
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
+/* Sélecteur pour le bouton de validation */
+#submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/* Style supplémentaire pour le bouton de validation au survol */
+#submitButton:hover {
+    background-color: #45a049;
+}
